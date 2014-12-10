@@ -18,7 +18,10 @@ en:
     labels: After adding labels to tickets or users, they will show up here. You can then use them as filters.
     rules: Automatically add labels, assignees, change status and more.
     users: Add more agents or normal users.
-    end: Thanks for using Brimir!
+    final: Thanks for using Brimir!
+    next: Next
+    previous: Previous
+    end: End
 
 # devise/sessions/new
   sign_in: Sign in
@@ -54,9 +57,9 @@ en:
   no_tickets_found: No tickets found.
   search: Search
   minutes: minutes
-  export_these_tickets: Export these tickets
 
 # tickets/show
+  add: Add
   ticket_by_at: By %{email} on %{at}
   no_content: No content
   status: Status
@@ -185,11 +188,6 @@ en:
         status: Status
         priority: Priority
         assignee_id: Assignee
-
-      reply:
-        to: To
-        cc: Cc
-        Bcc: Bcc
 
       rule:
         filter_field: Field
